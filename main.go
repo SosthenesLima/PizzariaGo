@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	nomePizzaria = "Pizzaria Go"
-	fmt.Println("Bem vindo! Pizzaria GO")
+	var nomePizzaria string = "Pizzaria Go"
+	fmt.Println(nomePizzaria)
 }
