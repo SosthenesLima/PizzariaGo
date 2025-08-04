@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 type Pizza struct {
+	ID    int
+	nome  string
+	preco float64
 }
 
 func main() {
