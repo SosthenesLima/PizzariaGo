@@ -15,6 +15,7 @@ func main() {
 		{ID: 2, nome: "Marguerita", preco: 79.50},
 		{ID: 3, nome: "Atum com queijo", preco: 69.50},
 		{ID: 4, nome: "4Queijos", preco: 80.00},
+		{ID: 5, nome: "Calabreza", preco: 90.00},
 	}
 	fmt.Println(pizzas)
 }
