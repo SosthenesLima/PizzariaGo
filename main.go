@@ -12,11 +12,7 @@ type Pizza struct {
 
 func main() {
 	router := gin.Default()
-	router.GET("/pizzas", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"pizzas": "Toscana, Calebresa",
-		})
-	})
+	router.GET("/pizzas", getPizzas)
 
 	//toscana, Marguerita, atum com queijo
 	//var pizzas = []Pizza{
@@ -31,4 +27,16 @@ func main() {
 	//}
 	//fmt.Println(pizzas)
 	router.Run()
+
+
 }
+
+func getPizzas(c *gin.Context) {
+	
+}
+
+func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"pizzas": "Toscana, Calebresa",
+		})
+	})
