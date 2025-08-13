@@ -28,15 +28,10 @@ func main() {
 	//fmt.Println(pizzas)
 	router.Run()
 
-
 }
 
 func getPizzas(c *gin.Context) {
-	
-}
-
-func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"pizzas": "Toscana, Calebresa",
-		})
+	c.JSON(200, gin.H{
+		"pizzas": "Toscana, Calebresa",
 	})
+}
