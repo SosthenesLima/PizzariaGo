@@ -27,6 +27,7 @@ func getPizzas(c *gin.Context) {
 		{ID: 6, Nome: "Frango", Preco: 78.00},
 		{ID: 7, Nome: "Carne de Sol", Preco: 110.00},
 		{ID: 8, Nome: "3Queijos", Preco: 69.00},
+		{ID: 9, Nome: "Italiana", Preco: 110.00},
 	}
 	c.JSON(200, gin.H{
 		"pizzas": pizzas,
